@@ -1,0 +1,179 @@
+#h1, #h1_wall > *, #h1_balcony > *, #h1_door > *, #h1 > * {
+    position: relative;
+}
+
+#h2, #h2_wall > *, #h2_balcony > *, #h2_door > *, #h2 > * {
+    position: absolute;
+}
+
+#h3, #h3_wall > *, #h3_balcony > *, #h3_door > *, #h3 * {
+    position: fixed;
+}
+
+.house {
+    width: 405px;
+    height: 460px;
+    background-color: #808029;
+    top: 0;
+    padding: 22px;
+}
+
+#h2 {
+    top: 700px;
+}
+
+#h3 {
+    top: 117px;
+    left: 500px;
+}
+
+.roof {
+    width: 0;
+    height: 0;
+    border-left: 200px solid transparent;
+    border-right: 200px solid transparent;
+    border-bottom: 150px solid #845226;
+}
+
+.wall {
+    margin-left: 15px;
+    width: 360px;
+    height: 300px;
+    background-color: #d49e7a;
+    border: 5px solid #845226;
+    border-top: transparent;
+    border-bottom: transparent;
+}
+
+#h2_wall {
+    top: 172px;
+}
+
+#h3_wall {
+    top: 289px;
+}
+
+.balcony {
+    border: 1px black;
+}
+
+#h1_balcony, #h2_balcony {
+    top: 35px;
+}
+
+#h3_balcony {
+    top: 376px;
+    left: 620px;
+}
+
+.balcony_door {
+    width: 60px;
+    height: 50px;
+    background-color: #7bbbb4;
+    border: 2px solid #845226;
+    border-bottom: transparent;
+    margin: 0 auto;
+}
+
+#h2_bdoor {
+    left: 148px;
+}
+
+#h3_bdoor {
+    top: 324px;
+    left: 690px;
+}
+
+.balcony_fence {
+    width: 200px;
+    height: 50px;
+    background-color: #b45a9e;
+    border: 2px solid #845226;
+    margin: 0 auto;
+}
+
+#h2_bfence {
+    top: 52px;
+    left: 78px;
+}
+
+.door {
+    width: 60px;
+    height: 100px;
+    background-color: #d16f61;
+    border: 5px solid #845226;
+    border-bottom: transparent;
+}
+
+#h1_door {
+    display: inline-block;
+    left: 40%;
+    top: 89px;
+}
+
+#h2_door {
+    left: 40%;
+    top: 65%;
+}
+
+#h3_door {
+    top: 484px; /* 255 */
+    left: 686px; /* 500 */
+}
+
+.door_knob {
+    width: 5px;
+    height: 5px;
+    background-color: #845226;
+    border: 1px solid black;
+    border-radius: 100%;
+}
+
+#h1_dknob, #h2_dknob {
+    left: 80%;
+    top: 48%;
+}
+
+#h3_dknob {
+    top: 537px;
+    left: 739px;
+}
+
+.window {
+    width: 80px;
+    height: 50px;
+    background-color: #7bbbb4;
+    border: 2px solid #845226;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#h1_w1 {
+    left: -12.5%;
+    top: 40px;
+}
+
+#h1_w2 {
+    left: 22.5%;
+    top: 40px;
+}
+
+#h2_w1 {
+    top: 65.75%;
+    left: 7.95%;
+}
+
+#h2_w2 {
+    top: 65.75%;
+    left: 67.5%
+}
+
+#h3_w1 {
+    top: 486px;
+    left: 571px;
+}
+
+#h3_w2 {
+    top: 486px;
+    left: 785px;
+}
