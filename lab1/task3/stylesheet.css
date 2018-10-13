@@ -1,0 +1,79 @@
+#square-1, #square-2, #square-3, #square-4 {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    border: 5px dotted;
+}
+
+#square-1 {
+    background-color: red;
+    border-color: green;
+}
+
+#square-2 {
+    background-color: green;
+    border-color: blue;
+}
+
+#square-3 {
+    background-color: blue;
+    border-color: pink;
+}
+
+#square-4 {
+    background-color: pink;
+    border-color: red;
+}
+
+.marginal {
+    width: 100px;
+    height: 100px;
+}
+
+#m1 {
+    background-color: navy;
+    margin: 0 10px 50px 10px;
+}
+
+#m2 {
+    background-color: yellow;
+    margin: 20px 10px 0 10px;
+}
+
+#outer {
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+    padding: 22px;
+}
+
+#inner {
+    background-color: firebrick;
+    width: 10px;
+    height: 10px;
+}
+
+[id*=d1]:first-child {
+    background-color: red;
+}
+
+li:nth-child(2n) {
+    background-color: green;
+}
+
+li:nth-child(2) + li {
+    background-color: blue;
+}
+
+#id-2 + .class-14 > li:first-child {
+    background-color: pink;
+}
+
+:not(div)[id=imlonelyhere] {
+    background-color: navy;
+}
+
+p:not(#imlonelyhere) {
+    background-color: aqua;
+}
