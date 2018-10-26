@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer{
+    background: #bedede;
+}
+
+.content{
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+    padding: 0 15px;
+    background: #ececec;
+    overflow: hidden;
+}
+
+a{
+    display: block;
+}
+
+.content > *{
+    float: left;
+}
+
+header nav li, footer nav li{
+    display: inline-block;
+    padding-top: 45px;
+}
+
+header nav a, footer nav a{
+    text-decoration: none;
+    color: rgba(200, 100, 25, 0.5)
+}
+
+header nav a:hover, footer nav a:hover{
+
+}
