@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
 #background {
     position: fixed;
     width: 100%;
@@ -88,11 +93,12 @@ main img {
     overflow: hidden;
     display: block;
     position: relative;
-    padding-bottom: 90px; /* height of your footer */
+    padding-bottom: 90px; /* height of my footer */
 }
 
 footer {
-    min-height: 85px;
+    overflow: visible;
+    height: 90px;
     max-width: 800px;
     left: 0;
     right: 0;
@@ -117,6 +123,10 @@ footer nav {
 
 footer nav a {
     display: block;
+}
+
+footer nav a:last-child {
+    margin-bottom: 5px;
 }
 
 footer a {
