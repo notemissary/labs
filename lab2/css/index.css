@@ -97,9 +97,9 @@ main img {
 }
 
 footer {
-    overflow: visible;
     height: 90px;
     max-width: 800px;
+    min-width: 465px;
     left: 0;
     right: 0;
     margin: auto;
