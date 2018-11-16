@@ -172,6 +172,10 @@ footer a:hover {
     footer .logo img {
         max-width: 115px;
     }
+
+    footer nav {
+        margin-left: 10%;
+    }
 }
 
 /*Tablet*/
