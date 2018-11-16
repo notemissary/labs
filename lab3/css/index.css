@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+#background {
+    position: fixed;
+    width: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+header {
+    overflow: hidden;
+    top: 0;
+    background-color: darkred;
+    max-width: 800px;
+    width: 100%;
+    margin: auto;
+}
+
+header nav {
+    float: right;
+    margin-right: 25px;
+}
+
+header nav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 21px;
+    text-decoration: none;
+    font-size: 1.4em;
+}
+
+header nav a:hover {
+    background-color: black;
+}
+
+.logo img {
+    float: left;
+    max-width: 50px;
+    width: 100%;
+    margin: 5px;
+}
+
+main {
+    overflow: hidden;
+    padding: 30px;
+    max-width: 800px;
+    width: 100%;
+    margin: 15px auto;
+    background-color: firebrick;
+}
+
+main p {
+    text-indent: 30px;
+    text-align: justify;
+    font-size: 1.4em;
+}
+
+main img {
+    width: 200px;
+    margin: 3px 10px 0 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#img1 {
+    float: left;
+}
+
+#img2 {
+    float: right;
+}
+
+#wrapper {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 90px; /* height of my footer */
+}
+
+footer {
+    height: 90px;
+    max-width: 800px;
+    min-width: 465px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+}
+
+footer .logo img {
+    margin-top: 0;
+    max-width: 70px;
+}
+
+footer nav {
+    float: left;
+    margin-left: 20%;
+}
+
+footer nav a {
+    display: block;
+}
+
+footer nav a:last-child {
+    margin-bottom: 5px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer p {
+    width: 80%;
+}
+
+footer a:hover {
+    color: black;
+}
+
+#contacts {
+    float: right;
+    margin-right: -60px;
+}
+
+/*Phone*/
+@media screen and (max-device-width: 425px) {
+    header nav a {
+        font-size: 3em;
+    }
+
+    .logo img {
+        max-width: 85px;
+    }
+
+    footer {
+        font-size: 1.7em;
+    }
+
+    #wrapper {
+        padding-bottom: 135px;
+    }
+
+    footer {
+        height: 135px;
+    }
+
+    footer .logo img {
+        max-width: 115px;
+    }
+}
+
+/*Tablet*/
+@media screen and (max-device-width: 768px) {
+    /*No actions needed*/
+}
