@@ -147,38 +147,55 @@ footer a:hover {
     margin-right: -60px;
 }
 
-/*Phone*/
 @media screen and (max-device-width: 425px) {
+    header nav {
+        margin-right: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        min-width: 100%;
+        align-items: center;
+    }
+
     header nav a {
-        font-size: 3em;
+        font-size: 1.3em;
+        padding: 14px;
     }
 
     .logo img {
-        max-width: 85px;
+        max-width: 0;
+        margin: 0;
+        padding: 0;
+    }
+
+    main p {
+        font-size: 1.1em;
     }
 
     footer {
-        font-size: 1.7em;
+        font-size: 1em;
+        height: 135px;
+        margin-right: 0;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        min-width: 100%;
+        align-items: center;
     }
 
     #wrapper {
         padding-bottom: 135px;
     }
 
-    footer {
-        height: 135px;
-    }
-
     footer .logo img {
-        max-width: 115px;
+        max-width: 0;
+        margin: 0;
+        padding: 0;
     }
 
     footer nav {
-        margin-left: 10%;
+        margin-left: 0;
     }
-}
-
-/*Tablet*/
-@media screen and (max-device-width: 768px) {
-    /*No actions needed*/
 }
