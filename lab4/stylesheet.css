@@ -203,7 +203,6 @@ form > * {
     /* Text style for "N, ame" */
     letter-spacing: 1.8px;
     margin-top: 15px;
-    margin-bottom: -30px;
 }
 
 form > p {
@@ -344,7 +343,7 @@ main {
         flex-direction: column;
         min-height: 65vh;
     }
-    
+
     #logoHead {
         margin-bottom: 0;
     }
