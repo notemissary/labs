@@ -40,7 +40,9 @@ header {
     width: 100%;
     height: 100%;
     background-image: url("./media/neonbrand-570373-unsplash.jpg");
-    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 footer {
@@ -342,13 +344,7 @@ main {
         flex-direction: column;
         min-height: 65vh;
     }
-
-    #background {
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-
+    
     #logoHead {
         margin-bottom: 0;
     }
