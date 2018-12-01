@@ -1,0 +1,382 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+#wrapper {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 121px; /* height of my footer */
+}
+
+header {
+    margin: 0 auto;
+    width: 100%;
+    height: 669px;
+    background-image: linear-gradient(to top, rgba(0, 241, 255, 0.7) 0%, rgba(0, 168, 178, 0.7) 100%);
+    /*opacity: 0.7;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    /*background-blend-mode: overlay;*/
+}
+
+#background {
+    width: 100%;
+    height: 100%;
+    background-image: url("./media/neonbrand-570373-unsplash.jpg");
+    background-size: 100%;
+}
+
+footer {
+    width: 100%;
+    height: 121px;
+    background-color: #333333;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > * {
+    margin: 35px 95px;
+}
+
+.logo {
+    /* Style for "logo copy" */
+    width: 160px;
+    height: 64px;
+    background-image: url("./media/logo_copy.png");
+    background-size: auto;
+    display: inline-block;
+}
+
+.contacts {
+    display: inline-block;
+}
+
+.contacts > * {
+    /*height: 52px;*/
+    display: inline-block;
+    color: white;
+    /*font-family: Catamaran;*/
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    /* Text style for "C, onnect" */
+    letter-spacing: 1.6px;
+    font-family: 'Catamaran', sans-serif;
+    text-align: center;
+}
+
+.line {
+    /* Style for "Asset 14 c" */
+    width: 45px;
+    height: 5px;
+    vertical-align: middle;
+}
+
+.logoAndText * {
+    /* Style for "Talk to pe" */
+    width: 350px;
+    /*height: 88px;*/
+    color: #333333;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    /* Text style for "T, alk to" */
+    letter-spacing: 3.6px;
+    text-align: center;
+    position: relative;
+}
+
+#logoHead {
+    /* Style for "logo" */
+    width: 276px;
+    height: 109px;
+    margin-bottom: 55px;
+}
+
+.allRegisterForm {
+    /* Style for "allRegiste" */
+    width: 380px;
+    height: 422px;
+    box-shadow: 0 6px 6px 1px rgba(44, 43, 45, 0.7);
+    background-color: #333333;
+    opacity: 0.9;
+    text-align: center;
+}
+
+.allRegisterForm > * {
+    margin: -2px;
+    text-decoration: none;
+}
+
+.blackRectangle {
+    width: 190px;
+    height: 58px;
+    display: table-cell;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+.blackRectangle > span {
+    /* Style for "Join us" */
+    height: 15px;
+    color: #ffffff;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    /* Text style for "Join us" */
+    letter-spacing: 1.8px;
+}
+
+.greyRectangle {
+    /* Style for "greyRestan" */
+    width: 190px;
+    height: 58px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.greyRectangle > span {
+    /* Style for "Sign in" */
+    height: 17px;
+    color: #333333;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    /* Text style for "Sign in" */
+    letter-spacing: 1.8px;
+}
+
+#forms {
+    margin: 10px auto;
+    height: 364px;
+}
+
+form {
+    /* Style for "Rectangle" */
+    height: 100%;
+    width: 347px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+}
+
+form > * {
+    width: 100%;
+    /* Style for "If you’re" */
+    height: 40px;
+    /* Style for "Name" */
+    color: #333333;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    /*line-height: 36px;*/
+    /* Text style for "N, ame" */
+    letter-spacing: 1.8px;
+    margin-top: 15px;
+    margin-bottom: -30px;
+}
+
+form > p {
+    /* Style for "If you’re" */
+    color: #ffffff;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    /*line-height: 24px;*/
+    /* Text style for "If you’re" */
+    letter-spacing: 1.6px;
+    text-align: left;
+    margin-top: 14px;
+    margin-bottom: 8px;
+}
+
+#reg {
+    /* Style for "Register n" */
+    height: 40px;
+    color: #333333;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+    /* Text style for "Register n" */
+    letter-spacing: 3px;
+    background-color: #ff6600;
+    border: none;
+}
+
+.whatIs {
+    height: 120px;
+}
+
+.HowIt {
+    height: 400px;
+}
+
+.whatIs, .HowIt {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+div > h1 {
+    /* Style for "What is El" */
+    display: block;
+    color: #00a8b2;
+    font-family: "Catamaran-Black", sans-serif;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 36px;
+    /* Text style for "What is El" */
+    letter-spacing: 3px;
+}
+
+.whatIs > p {
+    /* Style for "Web platfo" */
+    /*width: 764px;*/
+    /*height: 40px;*/
+    color: #333333;
+    font-family: 'Catamaran Light', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    /* Text style for "Web platfo" */
+    letter-spacing: 1.6px;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.blocks > div {
+    height: 250px;
+    width: 250px;
+}
+
+div > h2 {
+    color: #00a8b2;
+    font-family: "Catamaran-Black", sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 1.8px;
+    line-height: 36px;
+}
+
+.blocks p {
+    color: #333333;
+    font-size: 16px;
+    font-family: "Catamaran Light", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1.6px;
+    line-height: 24px;
+}
+
+main {
+    width: 100%;
+    height: 560px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.blocks img {
+    height: 70px;
+}
+
+@media screen and (max-device-width: 425px) {
+    .logoAndText span {
+        width: 550px;
+        font-size: 1.5em;
+    }
+
+    .whatIs p {
+        font-size: 2em;
+        line-height: 40px;
+    }
+
+    div h1 {
+        font-size: 2em;
+    }
+
+    .blocks p {
+        font-size: 2em;
+        line-height: 40px;
+    }
+
+    .blocks h2 {
+        font-size: 2em;
+    }
+
+    header {
+        flex-direction: column;
+        min-height: 65vh;
+    }
+
+    #background {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    #logoHead {
+        margin-bottom: 0;
+    }
+
+    .blocks {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .blocks > div {
+        height: 250px;
+        width: 66%;
+    }
+
+    main {
+        height: 1400px;
+    }
+
+    .whatIs {
+        margin-top: -200px;
+    }
+
+    .contacts > * {
+        font-size: 2em;
+    }
+
+    .allRegisterForm  *, .allRegisterForm span {
+        font-size: 1.18em;
+        line-height: 30px;
+    }
+}

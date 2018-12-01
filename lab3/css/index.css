@@ -173,6 +173,10 @@ footer a:hover {
         font-size: 1.1em;
     }
 
+    main img {
+	visibility: hidden;
+    }
+
     footer {
         font-size: 1em;
         height: 135px;
